@@ -1,0 +1,2 @@
+websocket:
+  url: "ws://100.x.x.x:3000"

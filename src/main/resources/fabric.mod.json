@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "messengerintegration",
+    "version": "1.0.0",
+    "name": "Messenger Integration",
+    "description": "Messenger - Minecraft Bridge",
+    "authors": [
+        "ngcsonsplash"
+    ],
+    "contact": {
+        "website": "https://github.com/ngcsonsplash"
+    },
+    "license": "MIT",
+    "icon": "assets/messengerintegration/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "me.ngcsonsplash.messengerintegration.MessengerIntegration"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "minecraft": ">=1.21"
+    },
+    "mixins": [
+        "messengerintegration.mixins.json"
+    ]
+}

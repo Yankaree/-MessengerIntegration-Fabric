@@ -1,0 +1,5 @@
+accessWidenerName reachable
+
+accessWidenerVersion 2
+
+# Allow access to internal methods for event handling
